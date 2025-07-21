@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simple Product Showcase</title>
+</head>
+
+<body class="bg-secondary">
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-md   bg-dark  fixed-top ">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <span class="text-logo  fs-4  text-warning  animate__animated animate__zoomIn">Lenovo</span>
+            </a>
+
+            <button class="navbar-toggler animate__animated animate__zoomIn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="bi bi-list  list  text-warning "></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
+                <ul class="navbar-nav text-end">
+                    <li class="nav-item  ">
+                        <a class="nav-link fs-5 text-warning  animate__animated animate__zoomIn" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-warning  animate__animated animate__zoomIn" href="#features">
+                            Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-warning  animate__animated animate__zoomIn" href="#benefits">
+                            Benefits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-warning  animate__animated animate__zoomIn" href="#price">
+                            Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-warning  animate__animated animate__zoomIn"
+                            href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-warning  animate__animated animate__zoomIn" href="#faq"> FAQ</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-warning  animate__animated animate__zoomIn"
+                            href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="buy  badge bg-primary fs-4 animate__animated animate__zoomIn" href="">Buy now</a>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start herror -->
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-12  col-lg-6">
+                <div class="titleProduct mt-5">
+                    <h1 class="text-warning"> Lenovo Legion 5i Gen 7 </h1>
+                    <h5 class="text-dark lh-lg">Is a powerful gaming laptop featuring an AMD Ryzen processor and NVIDIA
+                        GeForce graphics card, delivering high performance for smooth gameplay of the latest games. It
+                        has a clear 144Hz display with vibrant colors, an efficient cooling system, and a comfortable
+                        backlit keyboard. An ideal choice for gamers and professionals alike. </h5>
+                    <a class="buy  badge bg-primary fs-4" href="">Buy now</a>
+                </div>
+            </div>
+            <div class="col-12  col-lg-6">
+                <div class="imgProduct">
+                    <img class="img-fluid" src="images/lenovo.png" alt="Lenovo Legion 5">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end herror -->
+
+    <!-- staet Features section -->
+    <div id="features" class="container mt-5 mb-5 reveal">
+        <div class="row g-4">
+            <div class="container mt-5 reveal" id="projects">
+                <h1 class="text-center mb-4 text-dark">Features</h1>
+                <div class="row g-4">
+
+                    <!-- Features 1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3 ">
+                        <div class="card bg-dark">
+                            <img src="images/cbu.jpg" alt="CPU Icon" />
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Powerful CPU Performance</h5>
+                                <p class="card-text text-light">Equipped with AMD Ryzen™ or Intel® Core™ processors for
+                                    seamlessgaming and multitasking.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Features 2 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3 ">
+                        <div class="card bg-dark">
+                            <img class="card-img-top" src="images/cogs.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">NVIDIA GeForce RTX Graphics</h5>
+                                <p class="card-text text-light">Featuring RTX GPUs for realistic visuals and smooth
+                                    gameplay
+                                    athigh settings.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Features 3 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3 ">
+                        <div class="card bg-dark">
+                            <img class="card-img-top" src="images/hd.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">165Hz FHD Display</h5>
+                                <p class="card-text text-light">Experience ultra-smooth visuals and sharp clarity for
+                                    gaming
+                                    andmedia.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Features 4 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3 ">
+                        <div class="card bg-dark">
+                            <img class="card-img-top" src="images/fan.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Coldfront Cooling System</h5>
+                                <p class="card-text text-light">Advanced thermal management keeps your system cool under
+                                    heavyload.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Features 5 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3 ">
+                        <div class="card bg-dark">
+                            <img class="card-img-top" src="images/keyboard.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">TrueStrike Keyboard with RGB</h5>
+                                <p class="card-text text-light">Precision keystrokes and customizable RGB lighting for
+                                    immersivegameplay.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Features 6 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3 ">
+                        <div class="card bg-dark">
+                            <img class="card-img-top" src="images/valum.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">Nahimic 3D Audio</h5>
+                                <p class="card-text text-light">Immersive surround sound delivers crystal-clear audio in
+                                    games and entertainment.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end Features section-->
+
+
+    <!-- Start Benefits Section -->
+    <div id="benefits" class="container mt-5 reveal">
+        <h1 class="text-center mb-4 text-dark">Benefits</h1>
+        <div class="row g-4">
+            <!-- Benefit 1 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="images/lag.png" alt="Performance Image">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Lag-Free Performance</h5>
+                        <p class="card-text text-light">Run modern games and demanding apps smoothly with no lag or
+                            stutter.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 2 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="images/overheating.png" alt="Cooling Image">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Play Without Overheating</h5>
+                        <p class="card-text text-light">Stay cool during long gaming sessions thanks to the advanced
+                            cooling system.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 3 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="images/display.png" alt="Display Image">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Smooth & Vivid Display</h5>
+                        <p class="card-text text-light">Enjoy ultra-fluid visuals with a 165Hz Full HD screen for gaming
+                            and streaming.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 4 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="images/customizable.png" alt="Customize Settings">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Fully Customizable</h5>
+                        <p class="card-text text-light">Use Lenovo Vantage to tweak performance, lighting, and power
+                            modes to your needs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 5 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="images/sound.png" alt="Sound Image">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Immersive Sound</h5>
+                        <p class="card-text text-light">Nahimic 3D audio brings your games and movies to life with
+                            realistic surround sound.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefit 6 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3">
+                <div class="card bg-dark">
+                    <img class="card-img-top" src="images/play.png" alt="Flexible Use">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Work & Play Ready</h5>
+                        <p class="card-text text-light">Powerful enough for gaming, sleek enough for school or
+                            professional use.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Benefits Section -->
+
+    <!-- start price section -->
+    <div id="price" class="container mt-5">
+        <div class="table-responsive">
+            <table class="table  table-dark table-striped responsive  text-center fs-5">
+
+                <thead>
+                    <tr>
+                        <th colspan="7" class="bg-primary text-white fs-3">Price</th>
+                    </tr>
+                    <tr>
+                        <th>Plan</th>
+                        <th>Processor</th>
+                        <th>Graphics</th>
+                        <th>RAM</th>
+                        <th>Storage</th>
+                        <th>Price</th>
+                        <th>Buy</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic</td>
+                        <td>AMD Ryzen 5</td>
+                        <td>RTX 3050</td>
+                        <td>8GB</td>
+                        <td>256GB SSD</td>
+                        <td>$999</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Buy Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Standard</td>
+                        <td>AMD Ryzen 7</td>
+                        <td>RTX 3060</td>
+                        <td>16GB</td>
+                        <td>512GB SSD</td>
+                        <td>$1,299</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Buy Now</a></td>
+                    </tr>
+                    <tr>
+                        <td>Premium</td>
+                        <td>Intel Core i7</td>
+                        <td>RTX 3070</td>
+                        <td>32GB</td>
+                        <td>1TB SSD</td>
+                        <td>$1,699</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Buy Now</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- start testimonials section  -->
+    <div id="testimonials" class="container mt-5 reveal">
+        <h1 class="text-center mb-4 text-dark">What Our Customers Say</h1>
+
+        <!--testimonials 1  -->
+        <div class="testimonial-item mb-4">
+            <blockquote class="blockquote text-light bg-dark p-4 rounded">
+                <p>"The Lenovo Legion 5i offers amazing performance and keeps cool even during long gaming sessions."
+                </p>
+                <footer class="blockquote-footer text-warning mt-3">Ahmed Saleh, <cite title="Source Title">Gamer &
+                        Developer</cite></footer>
+            </blockquote>
+        </div>
+
+        <!--testimonials 2  -->
+        <div class="testimonial-item mb-4">
+            <blockquote class="blockquote text-light bg-dark p-4 rounded">
+                <p>"I love the vibrant display and immersive sound — it’s perfect for both work and play."</p>
+                <footer class="blockquote-footer text-warning mt-3">Sara Al-Masri, <cite title="Source Title">Graphic
+                        Designer</cite></footer>
+            </blockquote>
+        </div>
+
+        <!--testimonials 3  -->
+        <div class="testimonial-item mb-4">
+            <blockquote class="blockquote text-light bg-dark p-4 rounded">
+                <p>"The customizable keyboard lighting and fast performance make gaming sessions truly enjoyable."</p>
+                <footer class="blockquote-footer text-warning mt-3">Mohammed Hindi, <cite title="Source Title">Student &
+                        Gamer</cite></footer>
+            </blockquote>
+        </div>
+    </div>
+    <!-- end testimonials section  -->
+
+    <!-- start faq section  -->
+    <div id="faq" class="container mt-5 ">
+        <h1 class="text-center mb-4 text-dark">Frequently Asked Questions</h1>
+
+        <div class="accordion" id="faqAccordion">
+
+            <div class="accordion-item bg-dark text-light">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button bg-dark text-warning" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is the battery life of Lenovo Legion 5i Gen 7?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body text-light">
+                        The Lenovo Legion 5i Gen 7 offers around 5-7 hours of battery life depending on usage.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item bg-dark text-light">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed bg-dark text-warning" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        Does it support VR gaming?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body text-light">
+                        Yes, with its powerful RTX graphics cards, it supports VR gaming smoothly.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item bg-dark text-light">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed bg-dark text-warning" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        Can I upgrade the RAM later?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#faqAccordion">
+                    <div class="accordion-body text-light">
+                        Yes, the Lenovo Legion 5i allows RAM upgrades up to 32GB.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end faq section  -->
+
+    <!--start  contact section -->
+    <div id="contact" class="container mt-5 ">
+        <h1 class="text-center mb-4 text-dark">Contact Us</h1>
+
+        <div class="row justify-content-center bg-dark">
+            <div id="alertPlaceholder" class="mt-3"></div>
+            <div class="col-12 col-md-8 col-lg-6 mb-5 pt-5">
+                <form id="contactForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label text-warning">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        <div class="invalid-feedback text-light"></div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label text-warning">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        <div class="invalid-feedback text-light"></div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label text-warning">Message</label>
+                        <textarea class="form-control" id="message" rows="4"
+                            placeholder="Write your message here"></textarea>
+                        <div class="invalid-feedback text-light"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--end  contact section -->
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

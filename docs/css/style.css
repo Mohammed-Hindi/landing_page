@@ -1,0 +1,21 @@
+body{
+    padding-top: 85px;
+
+}
+.nav-link:hover{
+    color: white !important;
+    text-shadow: 1px 1px 1px red;
+}
+.text-logo{
+    font-weight: bolder;
+}
+.text-logo:hover{
+    color: white !important;
+    text-shadow: 1px 1px 1px red;
+}
+.buy{
+    text-decoration: none;
+}
+.badge:hover{
+    background-color: rgb(59, 31, 244) !important;
+}
